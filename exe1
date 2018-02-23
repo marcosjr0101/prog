@@ -1,0 +1,20 @@
+public class exe{
+
+	public static double convFahrenheit (double celsius){
+
+		return (9 * celsius + 160) / 5;
+
+	}
+
+
+
+
+
+	public static void main (String args[]){
+
+		double grausCelsius = Input.readDouble("Informe a temp. em graus Celsius:");
+
+		System.out.println("Graus convertidos Para Fahrenheit:"+convFahrenheit(grausCelsius)); 
+		
+	}
+}
